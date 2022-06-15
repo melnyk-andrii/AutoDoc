@@ -12,6 +12,7 @@ Maven
 Appium
 
 Steps to run app and tests:
+
 1.Download project from GitHub and open it in InteliJ.
 
 2.Start Android Studio( Adroid device should have AutoDoc app installed )
@@ -37,8 +38,14 @@ Steps to run app and tests:
      "noReset": true
     }
 
-4.Open in terminal project folder */users/user/desktop/AutoDoc*
+4.Open in terminal project folder:
 
-5.Run Command  mvn clean test site
+     */users/user/desktop/AutoDoc*
 
-6.Test reports will be in (AutoDoc/target/site)
+5.Run Command:  
+
+     mvn clean test site
+
+6.Test reports will be in:
+        
+    AutoDoc/target/site
